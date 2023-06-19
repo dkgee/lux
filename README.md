@@ -675,3 +675,14 @@ Code with ❤️ by [iawia002](https://github.com/iawia002) and lovely [contribu
 MIT
 
 Copyright (c) 2018-present, iawia002
+
+## developer
+
+```shell
+# 设置本地Go开发环境
+go env -w GOPROXY=https://goproxy.cn  # 设置国内镜像
+go install      # 安装依赖包
+go mod tidy     # 清理依赖
+
+
+```
